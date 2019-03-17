@@ -1,0 +1,3 @@
+url=jdbc:mysql://localhost:3306/fintech?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+username=user
+password=password

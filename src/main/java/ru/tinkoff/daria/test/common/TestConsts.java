@@ -17,7 +17,9 @@ public class TestConsts {
     public static final String XLS_RESULT_FILE = "result.xls";
     public static final String PDF_RESULT_FILE = "result.pdf";
     public static DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+    public static DateTimeFormatter SQL_DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     public static final String FONT = "/freesans.ttf";
     public static final String ENDPOINT_URL = "https://randomuser.me";
     public static final String BASE_PATH = "/api";
+    public static final String DB_PROPS_PATH = "dbconfig.txt";
 }

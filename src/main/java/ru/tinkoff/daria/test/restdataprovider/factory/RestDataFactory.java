@@ -32,7 +32,7 @@ public class RestDataFactory {
         }
     }
 
-    public List<PersonDto> getPersons (int quantity) throws IOException {
+    public List<PersonDto> getPersonList(int quantity) throws IOException {
         RestResponse<GetPersonsResponse> pp = restApi.getPersons(quantity);
 
         if (pp.getCode() == 200) {
